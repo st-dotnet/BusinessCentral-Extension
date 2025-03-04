@@ -1,0 +1,90 @@
+﻿@using Dynamic365.Data;
+@{
+    var tables = ViewBag.Tables as List<TableModel>;
+}
+
+<h2>Select a Table</h2>
+
+@if (tables == null || !tables.Any())
+{
+    <p>No data found!</p>
+}
+else
+{
+    <select id="tableDropdown">
+        <option value="">-- Select a Table --</option>
+        @foreach (var table in tables)
+        {
+            <option value="@table.TableName">@table.TableName</option>
+        }
+    </select>
+}
+
+<!-- Table container -->
+<div id="tableContainer"></div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#tableDropdown").on("change", function () {
+            var tableName = $(this).val().trim();
+
+            if (!tableName) {
+                $("#tableContainer").html("");
+                return;
+            }
+
+            $.ajax({
+                url: '/Customer/GetTableFields',
+                type: 'GET',
+                data: { tableName: tableName },
+                dataType: 'json',  
+                success: function (response) {
+                    console.log("Response:", response);
+
+                    var match = response.match(/<return_value>(.*?)<\/return_value>/s);
+                    if (!match) {
+                        $("#tableContainer").html("<p>No data found!</p>");
+                        return;
+                    }
+
+                    var jsonData;
+                    try {
+                        jsonData = JSON.parse(match[1]);
+                    } catch (e) {
+                        console.error("Error parsing JSON:", e);
+                        $("#tableContainer").html("<p>Error processing data</p>");
+                        return;
+                    }
+
+                    if (jsonData.error) {
+                        $("#tableContainer").html("<p>" + jsonData.error + "</p>");
+                        return;
+                    }
+
+                    // ✅ Improved Table with Class
+                    var tableHTML = "<table class='styled-table'><thead><tr>";
+                    jsonData.Fields.forEach(field => {
+                        tableHTML += `<th>${field.FieldName} (${field.DataType})</th>`;
+                    });
+                    tableHTML += "</tr></thead><tbody>";
+
+                    jsonData.Records.forEach(record => {
+                        tableHTML += "<tr>";
+                        jsonData.Fields.forEach(field => {
+                            tableHTML += `<td>${record[field.FieldName] || ''}</td>`;
+                        });
+                        tableHTML += "</tr>";
+                    });
+
+                    tableHTML += "</tbody></table>";
+                    $("#tableContainer").html(tableHTML);
+                },
+                error: function (xhr, status, error) {
+                    console.error("AJAX Error:", error);
+                    $("#tableContainer").html("<p>Error fetching data.</p>");
+                }
+            });
+        });
+    });
+</script>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic365", "Dynamic365\Dynamic365.csproj", "{A45618DD-EB5D-4EC6-B492-984DDC00A7F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A45618DD-EB5D-4EC6-B492-984DDC00A7F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45618DD-EB5D-4EC6-B492-984DDC00A7F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45618DD-EB5D-4EC6-B492-984DDC00A7F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45618DD-EB5D-4EC6-B492-984DDC00A7F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C43E1828-C65C-47DD-93D1-6D98CBE1546E}
+	EndGlobalSection
+EndGlobal

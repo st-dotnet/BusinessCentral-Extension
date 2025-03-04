@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BusinessCentral-Extension\\Dynamic365\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A45618DD-EB5D-4EC6-B492-984DDC00A7F9}|Dynamic365\\Dynamic365.csproj|d:\\businesscentral-extension\\dynamic365\\dynamic365\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A45618DD-EB5D-4EC6-B492-984DDC00A7F9}|Dynamic365\\Dynamic365.csproj|solutionrelative:dynamic365\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A45618DD-EB5D-4EC6-B492-984DDC00A7F9}|Dynamic365\\Dynamic365.csproj|d:\\businesscentral-extension\\dynamic365\\dynamic365\\services\\getalltables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A45618DD-EB5D-4EC6-B492-984DDC00A7F9}|Dynamic365\\Dynamic365.csproj|solutionrelative:dynamic365\\services\\getalltables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A45618DD-EB5D-4EC6-B492-984DDC00A7F9}|Dynamic365\\Dynamic365.csproj|d:\\businesscentral-extension\\dynamic365\\dynamic365\\services\\soapservicecall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A45618DD-EB5D-4EC6-B492-984DDC00A7F9}|Dynamic365\\Dynamic365.csproj|solutionrelative:dynamic365\\services\\soapservicecall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A45618DD-EB5D-4EC6-B492-984DDC00A7F9}|Dynamic365\\Dynamic365.csproj|d:\\businesscentral-extension\\dynamic365\\dynamic365\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A45618DD-EB5D-4EC6-B492-984DDC00A7F9}|Dynamic365\\Dynamic365.csproj|solutionrelative:dynamic365\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A45618DD-EB5D-4EC6-B492-984DDC00A7F9}|Dynamic365\\Dynamic365.csproj|d:\\businesscentral-extension\\dynamic365\\dynamic365\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A45618DD-EB5D-4EC6-B492-984DDC00A7F9}|Dynamic365\\Dynamic365.csproj|solutionrelative:dynamic365\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A45618DD-EB5D-4EC6-B492-984DDC00A7F9}|Dynamic365\\Dynamic365.csproj|d:\\businesscentral-extension\\dynamic365\\dynamic365\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A45618DD-EB5D-4EC6-B492-984DDC00A7F9}|Dynamic365\\Dynamic365.csproj|solutionrelative:dynamic365\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\BusinessCentral-Extension\\Dynamic365\\Dynamic365\\appsettings.json",
+              "RelativeDocumentMoniker": "Dynamic365\\appsettings.json",
+              "ToolTip": "D:\\BusinessCentral-Extension\\Dynamic365\\Dynamic365\\appsettings.json",
+              "RelativeToolTip": "Dynamic365\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-04T08:55:35.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAllTables.cs",
+              "DocumentMoniker": "D:\\BusinessCentral-Extension\\Dynamic365\\Dynamic365\\Services\\GetAllTables.cs",
+              "RelativeDocumentMoniker": "Dynamic365\\Services\\GetAllTables.cs",
+              "ToolTip": "D:\\BusinessCentral-Extension\\Dynamic365\\Dynamic365\\Services\\GetAllTables.cs",
+              "RelativeToolTip": "Dynamic365\\Services\\GetAllTables.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T08:52:23.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SOAPServiceCall.cs",
+              "DocumentMoniker": "D:\\BusinessCentral-Extension\\Dynamic365\\Dynamic365\\Services\\SOAPServiceCall.cs",
+              "RelativeDocumentMoniker": "Dynamic365\\Services\\SOAPServiceCall.cs",
+              "ToolTip": "D:\\BusinessCentral-Extension\\Dynamic365\\Dynamic365\\Services\\SOAPServiceCall.cs",
+              "RelativeToolTip": "Dynamic365\\Services\\SOAPServiceCall.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:30:24.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\BusinessCentral-Extension\\Dynamic365\\Dynamic365\\Program.cs",
+              "RelativeDocumentMoniker": "Dynamic365\\Program.cs",
+              "ToolTip": "D:\\BusinessCentral-Extension\\Dynamic365\\Dynamic365\\Program.cs",
+              "RelativeToolTip": "Dynamic365\\Program.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAASwBoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:33:53.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\BusinessCentral-Extension\\Dynamic365\\Dynamic365\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "Dynamic365\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "D:\\BusinessCentral-Extension\\Dynamic365\\Dynamic365\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "Dynamic365\\Views\\Customer\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T10:35:34.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\BusinessCentral-Extension\\Dynamic365\\Dynamic365\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Dynamic365\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\BusinessCentral-Extension\\Dynamic365\\Dynamic365\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Dynamic365\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAUwCgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T10:34:35.944Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
